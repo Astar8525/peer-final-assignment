@@ -1,0 +1,9 @@
+@when('I visit the "{page_name}"')
+def step_impl(context, page_name):
+    ...
+
+@then('I should see "{text}"')
+def step_impl(context, text):
+    ...
+
+# Definitions for other web steps...
