@@ -1,0 +1,14 @@
+Scenario: List all products
+  Given the following products
+  When I visit the "Home Page"
+  Then I should see "Product 1"
+  And I should see "Product 2"
+
+Scenario: Search by name
+  ...
+Scenario: Search by category
+  ...
+Scenario: Search by availability
+  ...
+Scenario: Update a product
+  ...
