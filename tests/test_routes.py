@@ -15,3 +15,6 @@ def test_update_product(client):
 
 def test_delete_product(client):
     ...
+
+def test_read_product(client)
+    ...
