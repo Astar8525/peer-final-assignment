@@ -18,3 +18,7 @@ def test_find_by_category():
 
 def test_find_by_availability():
     ...
+
+def test_list_all_products():
+    products = [ProductFactory(), ProductFactory(), ProductFactory()]
+    assert len(products) == 3
